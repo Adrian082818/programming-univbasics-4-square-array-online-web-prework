@@ -3,5 +3,6 @@ def square_array(array)
   counter = 0
  while array(counter) do
    puts array(counter)
-   counter >> new_array
+   counter += 1
+   new_array >> counter
 end
